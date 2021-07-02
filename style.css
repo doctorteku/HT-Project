@@ -73,8 +73,14 @@ li a:hover:not(.active) {
   font-weight: bold;
 }
 
+.card-text{
+  text-shadow: .5px .5px 1px grey;
+}
+
 .price{
   font-weight: bold;
+  text-shadow: .5px .5px 1px grey;
+  font-style: italic;
 }
 
 .modal-title {
@@ -85,4 +91,8 @@ li a:hover:not(.active) {
   text-align: center;
   font-family: sans-serif;
   font-style: italic;
+}
+
+.btn-primary{
+  box-shadow: 3px 3px grey;
 }
