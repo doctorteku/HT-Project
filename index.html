@@ -1,35 +1,48 @@
-<!--I got some help for some parts of the website from https://freefrontend.com/-->
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="navbar.css">
-    <title>Hackerton</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- StyleSheet -->
+  <link rel="stylesheet" href="styles.css" />
+  <title>Shopping Cart Project</title>
 </head>
+
 <body>
-  
-  <!--Navbar-->
+  <!-- Navigation -->
 
   <nav>
     <a href="index.html">Home</a>
     <a href="https://getnrg.com/pages/about-us">About</a>
     <a href="https://getnrg.com/pages/contact-us">Contact</a>
-    <a href="cart.html" style="float: right;" class="cart">
+    <a class="cart__icon">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
       </svg>
       
-      Cart - 
+      Cart
       
-      <span>
-        0
+      <span class="item__total">0</span>
+       
       </span>
     </a>  
   </nav>
   
+  <br>
+    
+  <br>
+
+  <br>
+      
+  <br>
+
+  <br>
+
   <br>
     
   <br>
@@ -60,31 +73,6 @@
 
     <br>
 
-    <br>
-
-    <br>
-
-    <br>
-
-    <br>
-
-    <br>
-
-    <br>
-
-    <br>
-
-    <br>
-
-    <br>
-
-    <br>
-
-    <br>
-
-    <br>
-
-    <br>
 
     
   
@@ -99,187 +87,56 @@
     <hr class="first-line">
   </div>
 
-  <br>
-      
-  <br>
-
-  <br>
-      
-  <br>
-    
   
-<div class="container">
-  <ul class="list-group">
+
+  <!-- Products -->
+  <section class="products">
+    <div class="product__center">
     
-    <!--Steering Wheel-->
-    <!--350MM Deep Dish Steering Wheel-->
-    <li class="list-group-item clearfix">
-      <img class="img-responsive img-rounded" src="https://cdn.shopify.com/s/files/1/0465/1981/2246/products/RST-036MB-S-BK-01-780x700_900x.jpg?v=1606155540" alt=""/>
-      <h3 class="list-group-item-heading">
-        "350MM Deep Dish Steering Wheel Suede"
-      </h3>
-      <p class="list-group-item-text lead">
-        The line that revamped our Steering Wheels, and our first ever "reinforced steering wheels", the spec that ALL of our steering wheels are built to today. 75mm deep, featuring a solid spoke design over the typical circular cut-outs for added material strength, covered in high density injection foam for the perfect grip and wrapped with varies material such as leahter, suede, and alcantara.
-        <br/>
-      </p>
-      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
-        <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
-        <a class="price">$189.99</a>
+    </div>
+  </section>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <br>
+
+  <div class="made-by" style="text-align: center;">
+  <h7 >MADE BY DAVID ALESTER</h7>
+  </div>
+
+  <section class="cart__overlay">
+    <div class="cart">
+      <span class="close__cart">
+        <svg>
+          <use xlink:href="./images/sprite.svg#icon-cross"></use>
+        </svg>
+      </span>
+      <h1>Your Cart</h1>
+      <div class="cart__centent">
+
       </div>
-    </li>
 
-    <!--Madmike Signature Series-Camo-->
-    <li class="list-group-item clearfix">
-      <img class="img-responsive img-rounded" src="https://cdn.shopify.com/s/files/1/0465/1981/2246/products/RST-036MB-C-MM-01-780x700_900x.jpg?v=1605809722" alt=""/>
-      <h3 class="list-group-item-heading">
-        "Madmike Signature Series-Camo"
-      </h3>
-      <p class="list-group-item-text lead">
-        Mad Mike Inspired 3 spoke steering wheel with solid spokes on two and special circle cut out on the center spoke. Reinforced with 5mm thick spokes.
-        <br/>
-      </p>
-      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
-        <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
-        <a href="#" class="price">$249.99</a>
-      </div>
-    </li>
-
-    <!--MATSURI ACRYLIC STEERING WHEEL-->
-    <li class="list-group-item clearfix">
-      <img class="img-responsive img-rounded" src="https://cdn.shopify.com/s/files/1/0465/1981/2246/products/RST-027CH-SM-01-780x700_900x.jpg?v=1608324500" alt=""/>
-      <h3 class="list-group-item-heading">
-        "Matsuri Acrylic Steering-Wheel"
-      </h3>
-      <p class="list-group-item-text lead">
-        The NRG "Matsuri" Steering Wheel. In 2015, we launched our first Drift Matsuri event at Grange. It was a benchmark for our company to not only represent the support for the sport and also support for the enthusiasts. In 2019, we want to make a steering wheel that has personality and representing the symbol of Matsuri( 祭), the Japanese word for a festival or a holiday. It is to remind people the start of our contribution for the love of Drifting.
-        <br />
-      </p>
-      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
-        <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
-        <a href="#" class="price">$249.99</a>
-      </div>
-    </li>
-
-    <!--Carbon Fiber Steering-Wheel 315MM-->
-    <li class="list-group-item clearfix">
-      <img class="img-responsive img-rounded" src="https://cdn.shopify.com/s/files/1/0465/1981/2246/products/ST-310CFBS-01-780x700_900x.jpg?v=1605746162" alt=""/>
-      <h3 class="list-group-item-heading">
-        "Carbon Steering-Wheel 315MM"
-      </h3>
-      <p class="list-group-item-text lead">
-        Some of our smallest Steering Wheels yet, these ~12" steering wheels were made with space in mind, and designed for the tiniest of vehicles. They also work great on simulator rigs, due to their smaller diameter being a closer match to most factory SIM wheels.
-        <br />
-      </p>
-      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
-        <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
-        <a href="#" class="price">$360.00</a>
-      </div>
-    </li>
-
-    <!--Seats-->
-    <!--Fiber Glass Bucket Seat with Carbon Fiber Large-->
-    <li class="list-group-item clearfix">
-      <img class="img-responsive img-rounded" src="https://cdn.shopify.com/s/files/1/0465/1981/2246/products/RSC-300-01-780x700_900x.jpg?v=1605751320" alt=""/>
-      <h3 class="list-group-item-heading">
-        "Fiber Glass Bucket Seat with Carbon Fiber Large"
-      </h3>
-      <p class="list-group-item-text lead">
-        Carbon Fiber (not FRP) finish. Our original Bucket Seat, in Large, with leather patches in the high traffic areas to prevent premature wear. True to our decade old design which actually inspired our newest and most successful line of seats. The RSC-300 sports an extra layer of FRP for added rigidity, while featuring similar comfort and style as some of the more expensive seats in the category. These seats are meant to look good, feel good, and work exceptionally in your vehicle.
-        <br />
-      </p>
-      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
-        <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
-        <a href="#" class="price">$730.00</a>
-      </div>
-    </li>
-
-    <!--Prisma-Ultra Bucket Seat Large-->
-    <li class="list-group-item clearfix">
-      <img class="img-responsive img-rounded" src="https://cdn.shopify.com/s/files/1/0465/1981/2246/products/FRP-302BK-ULTRA-08-780x700_900x.jpg?v=1605836263" alt=""/>
-      <h3 class="list-group-item-heading">
-        Prisma-Ultra Bucket Seat Large
-      </h3>
-      <p class="list-group-item-text lead">
-        The second best looking bucket seat available, hands down. The Prisma offers unmatched style, comfort, and innovation with things like our double layer FRP, 5 point harness compatibility, and custom gold mix color flake backing. Wrapped in Alcantara, and insulated with hand-picked mixed-density foam while rocking two storage pockets located on the front seat cushions, It's also the first seat to retain factory like utility and support, and at a surprisingly affordable price.
-        <br/>
-      </p>
-      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
-        <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
-        <a href="#" class="price">$424.99</a>
-      </div>
-    </li>
-
-    <!--Reclindable Racing Seat-->
-    <li class="list-group-item clearfix">
-      <img class="img-responsive img-rounded" src="https://cdn.shopify.com/s/files/1/0465/1981/2246/products/RSC-200L-01-780x700_900x.jpg?v=1605816726" alt=""/>
-      <h3 class="list-group-item-heading">
-        Reclineable Racing Seat
-      </h3>
-      <p class="list-group-item-text lead">
-        The perfect addition to any build, whether it's a race car, weekend warrior, or even a show car. Our reclinable bucket seats offer safety, performance, and style at an affordable price. The seat features Black cloth, and Red stitching along the seams. Note: They are priced and sold in pairs only.
-        <br/>
-      </p>
-      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
-        <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
-        <a href="#" class="price">$445.99</a>
-      </div>
-    </li>
-
-    <!--FIA Competition seat medium-->
-    <li class="list-group-item clearfix">
-      <img class="img-responsive img-rounded" src="https://cdn.shopify.com/s/files/1/0465/1981/2246/products/FRP-RS600M-08-780x700_900x.jpg?v=1605749620" alt=""/>
-      <h3 class="list-group-item-heading">
-        FIA Competition seat medium
-      </h3>
-      <p class="list-group-item-text lead">
-        A battle-tank of a seat. Our original FIA compliant FRP Bucket Seat. This seat is designed to handle whatever you would like to throw at it, whether that be blasting through backroads in your UTV, kicking up sand in the desert, or shredding tires at the track. This seat has proved that it's built for the task at hand, with many professional drivers from the likes of organizations such as: Formula Drift, Ultra 4, SCORE, NASA, SCCA, and many more.
-        <br />
-      </p>
-      <div class="btn-toolbar pull-right" role="toolbar" aria-label="">
-        <a href="#" class="btn btn-primary add-to-cart">Add to cart</a>
-        <a href="#" class="price">849.99</a>
-      </div>
-    </li>
-
-  </ul>
-</div>
-
-
-
-<script>
-    // Built by @traf
-    // https://tr.af
-
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        $(".hero").css({
-            transform: 'translate3d(0, +'+(scroll/100)+'%, 0) scale('+(100 - scroll/100)/100+')'
-        });
-    });
-    
-</script>
-
-    <!--footer-->
-    <p class="made-by" onclick="window.location='https://github.com/DoctorTeku'"><u><b>Made By David Alester</b></u></p>
-
-    <!-- Modal -->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="box-shadow: 10px 10px">
-      <div class="modal-dialog" style="box-shadow: 7px 7px">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="staticBackdropLabel" style="font-family: sans-serif; color: black;">Cart</h5>
-          </div>
-          <div class="modal-body" style="font-style: italic; font-family: sans-serif ; color: black;">
-            An item has been added to your cart!
-          </div>
-        </div>
+      <div class="cart__footer">
+        <h3>Total: $ <span class="cart__total">0</span></h3>
+        <button class="clear__cart btn">Clear Cart</button>
       </div>
     </div>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </section>
+
+
+  <script src="app.js"></script>
 </body>
-<script>
-  src="main.js"
-</script>
+
 </html>
