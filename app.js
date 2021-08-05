@@ -95,20 +95,20 @@ class UI {
           <div>
             <span class="increase" data-id=${id}>
               <svg>
-                <use xlink:href="./images/sprite.svg#icon-angle-up"></use>
+              <ion-icon name="caret-up-outline"></ion-icon>
               </svg>
             </span>
             <p class="item__amount">1</p>
             <span class="decrease" data-id=${id}>
               <svg>
-                <use xlink:href="./images/sprite.svg#icon-angle-down"></use>
+              <ion-icon name="caret-up-outline"></ion-icon>
               </svg>
             </span>
           </div>
 
             <span class="remove__item" data-id=${id}>
               <svg>
-                <use xlink:href="./images/sprite.svg#icon-trash"></use>
+              <ion-icon name="caret-up-outline"></ion-icon>
               </svg>
             </span>
 
